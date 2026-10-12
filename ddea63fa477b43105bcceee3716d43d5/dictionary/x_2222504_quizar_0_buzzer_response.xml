@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4b5fe73647bb43105bcceee3716d4375" label="Buzzer Response" max_length="40" name="x_2222504_quizar_0_buzzer_response" type="collection"/>
+</database>

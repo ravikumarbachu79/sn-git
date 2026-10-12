@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="bd0ca37e477b43105bcceee3716d4355" label="Quiz" max_length="40" name="x_2222504_quizar_0_quiz" type="collection">
+        <element label="Quiz Name" max_length="40" name="quiz_name" type="string"/>
+        <element label="Join Code" max_length="40" name="join_code" type="string"/>
+        <element choice="3" default="running" label="Status" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Running" sequence="0" value="running"/>
+                <element inactive_on_update="false" label="Paused" sequence="1" value="paused"/>
+            </choice>
+        </element>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+    </element>
+</database>

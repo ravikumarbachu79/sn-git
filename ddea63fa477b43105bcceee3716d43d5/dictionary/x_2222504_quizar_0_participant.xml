@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d4be6bb247bb43105bcceee3716d43e2" label="Participant" max_length="40" name="x_2222504_quizar_0_participant" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Buzzer Time" max_length="40" name="buzzer_time" type="glide_date_time"/>
+        <element label="Join Code" max_length="40" name="join_code" type="string"/>
+        <element label="Full Name" max_length="40" name="full_name" type="string"/>
+    </element>
+</database>
